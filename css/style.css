@@ -1,0 +1,219 @@
+html
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body {
+    width: 1281px;
+    height: 1653px;
+    margin:auto;
+    padding: 0;
+
+}
+.header{
+    display: flex;
+    width: 1281px;
+    height: 145px;;
+    background-color: black;
+    color: white;
+    font-size: '微軟正黑體';
+    padding-left:79px;
+    padding-right: 79px; 
+    margin-top: 0px;
+    position: fixed;
+    z-index: 5;
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    margin: 31px 36px 20px 0px;
+}
+.logo-img{
+    width: 237px;
+    height: 84px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+.nav-ul{
+    display: flex;
+
+    list-style-type: none;
+    font-size: '微軟正黑體';
+    margin:78px 102px 50px 0px;
+}
+.nav-li
+{
+    position: relative;
+    font-size: 17px;
+    margin-left: 33px;
+    white-space:nowrap;
+}
+.nav-li-a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.nav-li-a:hover{
+    text-decoration: underline;
+
+}
+
+.icon{
+    display: flex;
+    margin: 73px 0px 40px 55px;
+    font-size: 20px;
+}
+.icon a{
+    align-self: center;
+}
+.fas{
+    font-size: 20px;
+    margin-right:20px;
+    align-self: center;
+    color: white;
+}
+.search{
+    position:relative;
+    display:inline-block;
+
+}
+.search-input{
+    border:0;
+    border-radius: 8px;
+    width: 174px;
+    height: 25px;
+    font-size: 15px;
+}
+.search-a i { 
+    position: absolute; 
+    right: 2px;
+    top: calc(50% - 0.5em);
+  }
+.news1{
+    display: flex;
+    margin: 0px 46px 20px 46px;
+    padding-top: 165px;
+}
+.infor{
+    margin-left: 36px;
+}
+.nobuyprice{
+    margin-bottom: 28px;
+}
+.news2{
+    margin: 0px 83px 20px 83px;
+}
+
+.category{
+    display: flex;
+    margin:0px 82px 32px 112px;
+}
+.category-img{
+    margin-right:32px;
+    width: 240px;
+    height: 435px;
+}
+.footer{
+    width: 1280px;
+    height: 219px;
+    display: flex;
+}
+.link{
+    margin-left: 72px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.fb{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.iframe-link{
+    margin: 15px 66px 5px 0px;
+    height: 125px;
+    width: 280px;
+}
+.social-link{
+    margin-bottom: 5px;
+}
+.social-icon{
+margin-right: 10px;
+}
+.fab{
+    color: rgb(32, 70, 196);
+    font-size: 20px;
+}
+.footer-content{
+    margin:25px 102px 25px 0px;
+    display: block;
+    white-space: nowrap;
+}
+
+.contact-us-content{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.contact-us-a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+.contact-us-a:hover{
+    text-decoration: underline;
+}
+.contact-us-content-div{
+    padding-bottom: 15px;
+
+}
+.input-nmber {
+    display: block;
+    width: 167px;
+    height: 27px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-width:1px;   
+}
+.submit-number{
+    width: 167px;
+    height: 30px; 
+    background-color: rgb(44, 44, 44);
+    color: white;
+    box-shadow: 2px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-width:0px;
+}
+.submit-number:hover{
+    background-color: black;
+}
+.google-store{
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border-width:0px;
+    margin:0px 0px 20px 0px;
+    border-radius: 3px;
+}
+.app-store-a{
+    text-decoration: none;
+    color: white;
+}
+.apple-store{
+    width: 74px;
+    height: 25px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border-width:0px;
+    border-radius: 3px;
+}
