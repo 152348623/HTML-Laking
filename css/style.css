@@ -60,6 +60,7 @@ ul{
     text-decoration: none;
     color: white;
     display: block;
+    font-family: 'Arial','微軟正黑體',sans-serif;
 }
 .nav-li-a:hover{
     text-decoration: underline;
@@ -80,6 +81,9 @@ ul{
     align-self: center;
     color: white;
 }
+.fa-user-circle{
+    padding-left: 3px;
+}
 .search{
     position:relative;
     display:inline-block;
@@ -94,7 +98,7 @@ ul{
 }
 .search-a i { 
     position: absolute; 
-    right: 2px;
+    right: -1px;
     top: calc(50% - 0.5em);
   }
 .news1{
@@ -160,11 +164,13 @@ margin-right: 10px;
 .contact-us-content{
     font-size: 24px;
     margin-bottom: 15px;
+    font-family: 'Arial','微軟正黑體',sans-serif;
 }
 .contact-us-a{
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
+    font-family: 'Arial','微軟正黑體',sans-serif;
 }
 .contact-us-a:hover{
     text-decoration: underline;
@@ -189,7 +195,8 @@ margin-right: 10px;
     box-shadow: 2px;
     margin-bottom: 10px;
     border-radius: 3px;
-    border-width:0px;
+    border-width:0px;    
+    font-family: 'Arial','微軟正黑體',sans-serif;
 }
 .submit-number:hover{
     background-color: black;
@@ -207,6 +214,7 @@ margin-right: 10px;
 .app-store-a{
     text-decoration: none;
     color: white;
+    font-family: 'Arial','微軟正黑體',sans-serif;
 }
 .apple-store{
     width: 74px;
